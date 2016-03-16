@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.harsh.mortgagecalculatorbyharsh.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/andimg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/a"
+        android:id="@+id/textView"
+        android:textColor="#1f40e5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/b"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:textColor="#682a0a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/ab"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/c"
+        android:id="@+id/textView3"
+        android:textColor="#154b0f"
+        android:layout_below="@+id/ab"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ir"
+        android:background="#b6de9a"
+        android:indeterminate="false"
+        android:max="1000"
+        android:progress="500"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/ab"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/d"
+        android:id="@+id/textView4"
+        android:textColor="#121650"
+        android:layout_below="@+id/covered"
+        android:layout_alignParentStart="true" />
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/e"
+        android:id="@+id/lt1"
+        android:checked="false"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toStartOf="@+id/covered" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/f"
+        android:id="@+id/lt2"
+        android:checked="false"
+        android:layout_alignTop="@+id/lt1"
+        android:layout_alignStart="@+id/covered" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/g"
+        android:id="@+id/lt3"
+        android:checked="false"
+        android:layout_alignTop="@+id/lt2"
+        android:layout_toEndOf="@+id/lt2" />
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/h"
+        android:id="@+id/ti"
+        android:checked="false"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i"
+        android:id="@+id/cal"
+        android:layout_below="@+id/ti"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/j"
+        android:id="@+id/res"
+        android:textColor="#1b36e5"
+        android:layout_below="@+id/cal"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/k"
+        android:id="@+id/covered"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="31dp" />
+
+</RelativeLayout>

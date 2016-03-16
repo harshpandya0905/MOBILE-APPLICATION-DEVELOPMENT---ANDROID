@@ -1,0 +1,17 @@
+<resources>
+    <string name="x">ZooDirectory</string>
+    <string name="a">ZOO DIRECTORY</string>
+    <string name="b">ANIMAL LISTING</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="AnimalListing">
+        <item>TIGER</item>
+        <item>LION</item>
+        <item>CHEETAH</item>
+        <item>ELEPHANT</item>
+        <item>KANGAROO</item>
+        <item>BEAR</item>
+    </string-array>
+    <string name="title_activity_animal_detail">AnimalDetail</string>
+    <string name="title_activity_zoo_information">ZooInformation</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

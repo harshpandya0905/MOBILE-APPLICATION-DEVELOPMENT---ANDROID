@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de hipotecas por Harsh</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="c">Tasa de interés</string>
+    <string name="a">Calculadora de hipoteca</string>
+    <string name="b">Cantidad Prestada</string>
+    <string name="d">Plazo del préstamo</string>
+    <string name="e">7 años</string>
+    <string name="f">15 años</string>
+    <string name="g">30 años</string>
+    <string name="h">Impuestos y Seguros</string>
+    <string name="i">Calcula tus pagos mensuales</string>
+    <string name="j">Resultado $$</string>
+    <string name="k">Tasa de interés : 5.0/10.0</string>
+    <string name="v">Introduzca la cantidad , no puede ser nulo</string>
+</resources>

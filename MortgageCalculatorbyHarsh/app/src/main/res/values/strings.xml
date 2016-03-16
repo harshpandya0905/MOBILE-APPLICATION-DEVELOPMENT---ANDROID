@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mortgage Calculator by Harsh</string>
+    <string name="action_settings">Settings</string>
+    <string name="c">Interest Rate</string>
+    <string name="a">Mortgage Calculator</string>
+    <string name="b">Amount Borrowed</string>
+    <string name="d">Loan Term</string>
+    <string name="e">7 years</string>
+    <string name="f">15 years</string>
+    <string name="g">30 years</string>
+    <string name="h">Taxes and Insurance</string>
+    <string name="i">Calculate Monthly Payment</string>
+    <string name="j">Result $$</string>
+    <string name="k">Interest Rate : 5.0/10.0</string>
+    <string name="v">Enter the amount, it cannot be null</string>
+</resources>
